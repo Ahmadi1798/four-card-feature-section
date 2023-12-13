@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+    @apply rounded-md shadow-xl;
+}
+.card-container {
+    @apply flex flex-col items-start space-y-2 w-60;
+}
+.icon {
+    @apply flex justify-end mt-10;
+}
+h2 {
+    @apply text-left text-xl font-bold;
+}
+p {
+    @apply text-left text-grayishBlue text-xs tracking-wide;
+}
+.heading {
+    @apply text-center text-xl md:text-3xl;
+}
